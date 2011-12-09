@@ -10,9 +10,9 @@ debug2:<div id='db2'></div><br> -->
     errori:<div id='errori'></div><br>
 <?php
   if(isset($_REQUEST['testo'])){
-    echo "<script>testotodo='".$_REQUEST['testo']."';</script>";
+    echo '<script>testotodo="'.str_replace("\n",'\n',str_replace("\r","",$_REQUEST['testo'])).'";</script>';
   }else{
-    echo "<script>testotodo="ciao a\ntutti";</script>"
+    echo '<script>testotodo="ciao a\ntutti";</script>';
   }
 ?>
   <table>
