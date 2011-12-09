@@ -14,9 +14,9 @@ function on_body_keydown(event){
   //db1=db1+'+'+keycode; document.getElementById('db1').innerHTML=db1;
   currdown=keycode;
   //if(keycode==116 /*F5*/) return true;
-  if(keycode==16) document.getElementById('SHIFT').style.color='red';
+/*  if(keycode==16) document.getElementById('SHIFT').style.color='red';
   if(keycode==17) document.getElementById('CTRL').style.color='red';
-  if(keycode==18) document.getElementById('ALT').style.color='red';
+  if(keycode==18) document.getElementById('ALT').style.color='red'; */
   return true;
 }
 function on_body_keypress(event){
@@ -49,8 +49,8 @@ function on_body_keyup(event){
     lastdown=-1;
     document.getElementById('AUTOREPEAT').innerHTML='';
   }
-  if(keycode==16) document.getElementById('SHIFT').style.color='black';
+/*  if(keycode==16) document.getElementById('SHIFT').style.color='black';
   if(keycode==17) document.getElementById('CTRL').style.color='black';
-  if(keycode==18) document.getElementById('ALT').style.color='black';
+  if(keycode==18) document.getElementById('ALT').style.color='black'; */
   return false;
 }

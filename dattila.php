@@ -21,19 +21,11 @@ debug2:<div id='db2'></div><br> -->
 </tr></table>
   <script>printtodo();</script>
 
-  <div id='SHIFT'>SHIFT</div>
+<!--  <div id='SHIFT'>SHIFT</div>
   <div id='CTRL'>CTRL</div>
-  <div id='ALT'>ALT</div>
+  <div id='ALT'>ALT</div> -->
   <div style='color:red' id='AUTOREPEAT'></div>
 
-<!--  <pre>
-  <script>
-    for (var i=0;i<12555;i++){
-	if(!(i%50))document.write("\n"+i+":- ");
-      document.write('&#'+i+'; ');
-    }
-  </script>
-</pre>-->
 
 </body>
 </html>
