@@ -8,9 +8,13 @@
 <!--    debug1:<div id='db1'></div><br>
 debug2:<div id='db2'></div><br> -->
     errori:<div id='errori'></div><br>
-  <script>
-    testotodo="ciao a\ntutti";
-  </script>
+<?php
+  if(isset($_REQUEST['testo'])){
+    echo "<script>testotodo='".$_REQUEST['testo']."';</script>";
+  }else{
+    echo "<script>testotodo="ciao a\ntutti";</script>"
+  }
+?>
   <table>
 <tr>
 <td><pre><div id='testo'></div></pre></td>
